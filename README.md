@@ -97,7 +97,7 @@ This project is my first capstone microvers which will be used for learning in t
 
 # LIVE DEMO 
 
-- [] coming soon
+- [click me](#https://axcell-0.github.io/first-capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
