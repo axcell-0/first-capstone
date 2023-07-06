@@ -28,32 +28,33 @@
             <li><a href="https://www.google.com/">Log out</a></li>
           </ul>
         </div>
-        <div class="mobile-nav" id="menu">
-          <img src="./images/phone-view-icons/hamburger.svg" alt="menu-icons" />
+        <div class="mobile-nav">
+          <img
+            src="./images/phone-view-icons/hamburger.svg"
+            alt="menu-icons"
+            id="menu-icon"
+          />
         </div>
-        <div class="main-nav">
-          <div class="subNav d-flex">
-            <div class="subLeft">
-              <img
+        <div class="main-menu-container">
+          <div class="main-menu" id="main-menu">
+            <span class="chef-icon"
+              ><a href="index.html"><img
                 src="./images/phone-view-icons/download.png"
                 alt="chef-icon"
-              />
-            </div>
-            <div class="moblie-abso" id="item">
-              <div class="closes" id="close">
-                <img src="./Images/close.svg" alt="" />
-              </div>
-              <div class="subMiddle d-flex">
-                <a href="about.html" class="active">About</a>
-                <a href="about.html#prog">Program</a>
-                <a href="">Join</a>
-                <a href="">Sponsor</a>
-                <a href="">News</a>
-              </div>
-              <div class="subRight">
-                <a href="#"> CC campaign </a>
-              </div>
-            </div>
+            /></a></span>
+            <span class="close"
+              ><img
+                src="./images/phone-view-icons/x.svg"
+                alt="close-icon"
+                id="close-icon"
+            /></span>
+            <ul class="menu-list">
+              <li><a href="About.html" id="about">About</a></li>
+              <li><a href="#">Program</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Sponsor</a></li>
+              <li><a href="#" class="button" id="button">CC Campaign</a></li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -286,5 +287,6 @@
         >
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
