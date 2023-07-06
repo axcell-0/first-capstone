@@ -600,7 +600,7 @@ h5 {
 
   .desktop-recipt {
     margin-top: 50px;
-    margin-bottom: auto;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -642,7 +642,6 @@ h5 {
   }
 
   .recipt1 img {
-    width: 400px;
     opacity: 0.4;
   }
 
@@ -659,7 +658,32 @@ h5 {
   }
 
   .recipt2 img {
-    width: 400px;
     opacity: 0.4;
   }
+
+  .recipt1 h6 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-bottom: 30px;
+    font-size: 42px;
+    font-weight: 600;
+  }
+
+  .recipt2 h6 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-bottom: 30px;
+    font-size: 42px;
+    font-weight: 600;
+  }
+}
+
+.programe-detail:hover {
+  border: 2px solid #fff;
 }
